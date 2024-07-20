@@ -1,0 +1,115 @@
+name: farmer_eboard
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.4 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.4+4 #Allows users to select images from their device's gallery or camera.
+  firebase_core: ^2.24.2 #Essential for initializing Firebase services in a Flutter app.
+  cloud_firestore: ^4.13.6 #Enables access to Firestore, Firebase's NoSQL cloud database.
+  firebase_auth: ^4.15.3 #Provides authentication services for Firebase, supporting multiple sign-in methods.
+  firebase_storage: ^11.5.5 #Facilitates file storage and retrieval in Firebase's cloud storage.
+  get: ^4.6.5 #A Flutter package for state management, navigation, and dependency injection.
+  carousel_slider: ^4.2.1 #Provides a carousel slider widget for creating image or item carousels.
+  cached_network_image: ^3.2.3 #Efficiently loads and caches network images.
+  cupertino_icons: ^1.0.2 #A collection of Cupertino (iOS-style) icons.
+  random_string: ^2.3.1 #Generates random strings useful for unique identifiers. 
+  flutter_easyloading: ^3.0.5 #A package for displaying loading indicators and progress dialogs.
+  firebase_messaging: ^14.7.10 #Integrates Firebase Cloud Messaging for push notifications.
+  get_storage: ^2.1.1 #Lightweight, efficient storage solution for simple data persistence.
+  device_info_plus: ^9.1.2 #Retrieves device-specific information such as hardware and software details.
+  intl: ^0.18.1 #Internationalization and localization support for Flutter apps.
+  permission_handler: ^10.4.3 # Manages permissions for accessing device features.
+  app_settings: ^5.0.0 #Provides utilities to open device settings from the app.
+  universal_html: ^2.2.4 #Allows HTML rendering and manipulation across multiple platforms.
+  image_picker_web: ^3.1.1 # Enables image picking from the web.
+  file_picker: ^6.1.1 #Allows users to pick files from their device storage.
+  http: ^1.1.0 #Simplifies making HTTP requests.
+  http_parser: ^4.0.2 #Utility for parsing HTTP headers and responses.
+  url_launcher: ^6.2.4 #Facilitates launching URLs in the device's default browser.
+  timeago: ^3.6.1 #Converts timestamps to human-readable "time ago" format.
+  flutter_rating_bar: ^4.0.1 #A customizable rating bar widget to display ratings using stars.
+  syncfusion_flutter_datepicker: ^22.2.12 #Provides a rich set of date picker widgets.
+  syncfusion_flutter_charts: ^22.2.12 #Provides a wide range of charting widgets.
+  photo_view: ^0.14.0 #Enables zoomable and pannable image viewing.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+   
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+

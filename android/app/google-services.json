@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "920822005633",
+    "project_id": "farmer-eboard",
+    "storage_bucket": "farmer-eboard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920822005633:android:54b05979ddaafcee2cb280",
+        "android_client_info": {
+          "package_name": "com.example.farmer_eboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920822005633-fpt8elk3j6l92uhp2g20bj5rcht9fac3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.farmer_eboard",
+            "certificate_hash": "a789e505c817a122ea906ea6eaa3d48b3a30ab18"
+          }
+        },
+        {
+          "client_id": "920822005633-j913eddp10vo1kf658c76ihre2vg5qgt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvs1nJvAqvOgZls2eMooIvf1HEufQzpDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920822005633-j913eddp10vo1kf658c76ihre2vg5qgt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "920822005633-hme7dvhvo4h21qpbu1po6i1a3fi6vuon.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.farmerEboard"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
